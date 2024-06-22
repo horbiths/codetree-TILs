@@ -16,6 +16,10 @@ public class Main {
                 num *= 2;
                 System.out.print(num + " ");
             }
+
+            if (num > b) {
+                break;
+            }
         }
     }
 }
