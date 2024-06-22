@@ -7,7 +7,7 @@ public class Main {
 
         for (int i = 1; i <= n; i++) {
             int ten = i / 10;
-            int one = i - ten;
+            int one = i - (ten * 10);
             if (i % 3 == 0) {
                 System.out.print("0 ");
             } else if (ten == 9 || one == 9) {
