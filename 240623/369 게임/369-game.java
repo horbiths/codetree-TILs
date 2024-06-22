@@ -6,7 +6,7 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            int ten = i % 10;
+            int ten = i / 10;
             int one = i - ten;
             if (i % 3 == 0) {
                 System.out.print("0 ");
