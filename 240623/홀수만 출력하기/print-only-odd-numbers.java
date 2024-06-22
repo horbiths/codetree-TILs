@@ -12,7 +12,7 @@ public class Main {
         }
 
         for (int j = 0; j < N-1; j++) {
-            if(inputN[j] % 3 == 0) {
+            if(inputN[j] % 3 == 0 && inputN[j] % 2 == 1) {
                 System.out.println(inputN[j]);
             }
         }
