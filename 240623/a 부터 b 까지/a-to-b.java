@@ -7,19 +7,14 @@ public class Main {
         int b = sc.nextInt();
         int num = a;
 
-        System.out.print(num + " ");
-        while(num < b) {
+        while(num <= b) {
+            System.out.print(num + " ");
             if (num % 2 == 0) {
                 num += 3;
             } else {
                 num *= 2;
             }
-            
-            if (num <= b) {
-                System.out.print(num + " ");
-            } else {
-                break;
-            }
+
         }
     }
 }
