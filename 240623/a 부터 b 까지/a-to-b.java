@@ -17,7 +17,9 @@ public class Main {
                 System.out.print(num + " ");
             }
 
-            if (num + 3 > b || num * 2 >b) {
+            if (num + 3 > b && num % 2 == 0) {
+                break;
+            } else if (num * 2 > b && num % 2 != 0) {
                 break;
             }
         }
