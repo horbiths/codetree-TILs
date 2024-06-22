@@ -11,15 +11,13 @@ public class Main {
         while(num < b) {
             if (num % 2 == 0) {
                 num += 3;
-                System.out.print(num + " ");
             } else {
                 num *= 2;
-                System.out.print(num + " ");
             }
-
-            if (num + 3 > b && num % 2 == 0) {
-                break;
-            } else if (num * 2 > b && num % 2 != 0) {
+            
+            if (num <= b) {
+                System.out.print(num + " ");
+            } else {
                 break;
             }
         }
