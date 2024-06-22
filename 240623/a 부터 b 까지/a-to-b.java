@@ -17,7 +17,7 @@ public class Main {
                 System.out.print(num + " ");
             }
 
-            if (num > b) {
+            if (num + 3 > b || num * 2 >b) {
                 break;
             }
         }
